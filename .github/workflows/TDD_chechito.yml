@@ -9,11 +9,11 @@
     aws-actions/configure-aws-credentials@v1
   with:
   aws-access-key-id:
-    ${{secrets.AWS_ACCESS_KEY_ID}}
+    ${{ASIAQPVNMXGUOBCSJ5VE}}
     aws-secret-access-key:
-    ${{secrets.AWS_SECRET_ACCESS_KEY}}
+    ${{681IPbxDSeOMhs/naIriXDs9PlZUewgNzArXWGlN}}
     aws-session-token:
-    ${{secrets.AWS_SESSION_TOKEN}}
+    ${{FwoGZXIvYXdzEOX//////////wEaDM06G0xPa30kryMh+CLXAdvGQfvXMiH74wdameYCgFw3evz2lRmDT7JB1ocPKpuKxQymJ5YFFZuoSYNqO2e1FULRgstZJuHG+rJ/ZnNot2Nd7MyZH8RyfSbE/i17qDfnU/xoIynIYitcf+WB4H5wDlymhkL4E8vl/puCkFfJDs9VgT99iOWevnW9bntAR2Q/70SOdQeAYCH+uSixwhQz00p0vOcrAKWDjeSZMe+L34h6rpOPIjxNvcNUon9ahqbsNqXQiG6mrlGIOFmo3OrlUcVyLSFjc5NJNMaQR7npQZWPaeT+Gq6xKMOt+Z8GMi2Qixcgp5d5VTazh429QnQFfK8+nqF27c+mUXksMo0lQL7Ald2qxAPYhnhtRGk=}
     aws-region: us-east-1
 - name: listado de buckets
   run: |
