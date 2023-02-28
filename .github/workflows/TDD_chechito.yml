@@ -5,13 +5,13 @@ run: |
     pip install -r requirements.txt
     pytest
     - name: Configure AWS Credentials
-uses:
-    aws-actions/configure-aws-credentials@v1
+    uses:
+        aws-actions/configure-aws-credentials@v1
     with:
         aws-access-key-id: ${{aws_access_key_id}}
         aws-secret-access-key: ${{aws_secret_access_key}}
         aws-session-token: ${{aws_session_token}
         aws-region: us-east-1
-- name: listado de buckets
-  run: |
-  aws s3api list-buckets
+    - name: listado de buckets
+    run: |
+aws s3api list-buckets
