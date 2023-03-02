@@ -33,6 +33,7 @@ jobs:
         run: echo Hello, world!
       - name: Install virtualenv and execute pytest
         run:  |
+          ls
           pip install virtualenv
           virtualenv env
           source env/bin/activate
