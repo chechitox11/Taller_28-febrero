@@ -33,6 +33,7 @@ jobs:
         run: echo Hello, world!
       - name: Install virtualenv and execute pytest
         run:  |
+          ls
           pip install virtualenv
           virtualenv env
           source env/bin/activate
@@ -47,4 +48,4 @@ jobs:
             aws-region: us-east-1
       - name: Copiar archivo en Bucket
         run: |
-          aws s3 cp funciones.py s3://bucket.tdd
+          aws s3 cp funciones.py s3://mabsito.tdd
