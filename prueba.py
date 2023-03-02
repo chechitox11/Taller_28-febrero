@@ -1,8 +1,7 @@
-from Trabajo import arreglisho
+from arreglisho import encontrar_minimo
 
-a = [2,3,5,7,8,1]
+a = [2,3,5,7,8,0]
 
-def encontrar_minimo(arr):
-    b = encontrar_minimo(a)
+encontrar_minimo(a)
 
-print("El numero menor del arreglo es: ", b)
+print(encontrar_minimo(a))
